@@ -1,10 +1,8 @@
 # multiplication_table.py
 
-#prompt the user for a number
-number = int(input("Enter a number to seeit's multiplication table: "))
+# Prompt the user exactly as required
+number = int(input("Enter a number to see its multiplication table: "))
 
-#loop through numbers 1 to 10
+# Loop from 1 to 10 (inclusive)
 for i in range(1, 11):
-    result = number * i
-    print(f"{number} * {i} = {result}")
-    
+    print(f"{number} * {i} = {number * i}")
